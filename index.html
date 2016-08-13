@@ -1,0 +1,187 @@
+---
+layout: home
+---
+
+<header>
+  <h1>{{ site.title }}</h1>
+</header>
+
+<nav>
+  <ul>
+    <li>
+      <a href="#blog">
+        <img src="/images/notebook.png"
+             alt="Thoughts, Notes, and Q&amp;As"/></a>
+    </li>
+    <li>
+      <a href="#projects">
+        <img src="/images/bread.png"
+             alt="Projects and Tools"/></a>
+    </li>
+    <li>
+      <a href="#talks">
+        <img src="/images/pie.png"
+             alt="Talks and Gists"/></a>
+    </li>
+    <li>
+      <a href="#ppl">
+        <img src="/images/croissant.png"
+             alt="Community"/></a>
+    </li>
+    <li>
+      <a href="#work">
+        <img src="/images/atelier.png"
+             alt="Work and Cie"/></a>
+    </li>
+    <li>
+      <a href="#about">
+        <img src="/images/rolling_pin.png"
+             alt="About Me"/></a>
+    </li>
+  </ul>
+</nav>
+
+<section id="blog">
+  <h1>Notebook</h1>
+
+  <h2>Blog Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Misc Notes</h2>
+
+  <p>Nothing for now.</p>
+</section>
+
+<section id="projects">
+  <h1>Projects</h1>
+
+  <p>The mature projects I am a contributor or a founder:</p>
+
+  <ul class="default">
+    <li><a href="https://pullreview.com">PullReview</a>, a commercial automated
+        code review service for Ruby and Rails</li>
+    <li><a href="https://github.com/hone/mruby-cli">mruby-cli</a>, a framework
+        to build mruby CLI app for major platforms</li>
+    <li><a href="https://github.com/hone/mruby-docopt">mruby-docopt</a>, a mruby
+        gem bringing docopt to mruby</li>
+    <li><a href="https://github.com/kinow/gtest-tap-listener">GoogleTest TAP
+        Listener</a></li>
+    <li><a href="https://github.com/toch/benchmark-lab">benchmark-lab</a>, a lab
+        for rigorous benchmark of Ruby code</li>
+    <li><a href="https://github.com/toch/intercom-export">intercom-export</a>, a
+        mruby-cli app to export conversation from Intercom</li>
+    <li><a href="https://github.com/toch/gitils">Gitils</a>, a bundle of
+        miscellaneous stuff for Git (e.g. Alias, Hooks)</li>
+  </ul>
+</section>
+
+<section id="talks">
+  <h1>Talks and other materials</h1>
+
+  <p>The list of talks I gave and their companions:</p>
+
+  <ul class="default">
+    <li>Building a API CLI in 15 minutes with mruby-cli, Ruby Conf Philippines 2016 <a href="https://speakerdeck.com/toch/build-a-cross-platform-web-api-cli-in-15-minutes-with-mruby-cli">slides</a> <a href="">video</a> <a href="https://github.com/toch/github_status">code</a></li>
+    <li>Prepare Yourself Agains Zombie Epidemic, Ruby Kaigi 2015 <a href="https://speakerdeck.com/toch/ruby-kaigi-2015-prepare-yourself-against-zombie-epidemic">slides</a> <a href="https://www.youtube.com/watch?v=erx00WTzvcY">video</a> <a href="https://github.com/toch/zombie_epidemic">code</a></li>
+    <li>Static Analysis Driven Refactoring in Ruby, App Worlds Europe 2015</li>
+    <li>Deep Diving: How to Explore a New Code Base, RubyDay IT 2015 <a href="https://speakerdeck.com/toch/rubyday-2015-deep-diving-how-to-explore-a-new-code-base">slides</a> <a href="https://github.com/toch/trace_calls">code</a></li>
+    <li>Prepare Yourself Against Zombie Epidemic, Keep Ruby Weird 2015 <a href="https://speakerdeck.com/toch/keeprubyweird-2015-prepare-yourself-against-zombie-epidemic">slides</a> <a href="http://confreaks.tv/videos/keeprubyweird2015-prepare-yourself-against-the-zombie-epidemic">video</a> <a href="https://github.com/toch/zombie_epidemic">code</a></li>
+    <li>Prepare Yourself Against Zombie Epidemic, Rocky Mountain Ruby 2015 <a href="https://speakerdeck.com/toch/rockymountain-2015-prepare-yourself-against-zombie-epidemic">slides</a> <a href="http://www.confreaks.tv/videos/rmr2015-prepare-yourself-against-zombie-epidemic">video</a> <a href="https://github.com/toch/zombie_epidemic">code</a></li>
+    <li>Deep Diving: How to Explore a New Code Base, RubyConf Brazil 2015 <a href="https://speakerdeck.com/toch/rubyconf-brazil-2015-deep-diving-how-to-explore-a-new-code-base">slides</a></li>
+    <li>Deep Diving: How to Explore a New Code Base, eurucamp 2015 <a href="https://speakerdeck.com/toch/eurucamp-2015-deep-diving-how-to-explore-a-new-codebase">slides</a> <a href="http://confreaks.tv/videos/eurucamp2015-deep-diving-how-to-explore-a-new-code-base">video</a></li>
+    <li>Diving in the unknown depths of a project, RubyConf India 2015 <a href="https://speakerdeck.com/toch/rubyconf-india-2015-diving-in-the-unknown-depth-of-a-project">slides</a> <a href="https://youtu.be/uVBHKJ_r-to">video</a></li>
+    <li>Static Analysis Driven Refactoring, Workshop RubyConf AU 2015 <a href="http://slidr.io/toch/rubyconf-au-2015-static-analysis-driven-refacorog">slides</a> <a href="https://github.com/8thcolor/rubyconfau2015-sadr/tree/exercise8-auto/reports">code</a></li>
+    <li>Zombie, Braaaaaain, and Ruby, Paris.rb Jan 2015 <a href="https://rawgit.com/toch/parisrb-150106/master/presentation.html#/">slides</a> <a href="https://github.com/toch/zombie_epidemic">code</a></li>
+    <li>Safety Nets: Learn to code with confidence, RubyDay.it 2014 <a href="http://slidr.io/toch/rdrc-2014-safety-nets-learn-to-code-with-confidence">slides</a> <a href="http://youtu.be/cVTrY2qL-Hs?list=PL5ImBN21eKvbQ6kH6WCAqj1QqgusGsiO0">video</a> <a href="https://github.com/8thcolor/rdrc2014-safetynets">code</a></li>
+    <li>How to do Static Analysis Driven Refactoring?, Workshop Eurucamp 2014 <a href="http://slidr.io/toch/eurucamp-2014-workshop-how-to-do-static-analysis-driven-refactoring">slides</a> <a href="https://github.com/8thcolor/eurucamp2014-htdsadr/tree/exercise7-auto/reports">code</a></li>
+    <li>Safety Nets: Learn to code with confidence, RedDotRubyConf 2014 <a href="http://slidr.io/toch/rdrc-2014-safety-nets-learn-to-code-with-confidence">slides</a> <a href="http://confreaks.tv/videos/rdrc2014-safety-nets-learn-to-code-with-confidence">video</a> <a href="https://github.com/8thcolor/rdrc2014-safetynets">code</a></li>
+    <li>The Treasures of Ruby, one for each day, Paris.rb May 2014 <a href="https://rawgit.com/8thcolor/parisrb-140506/master/presentation.html#/">slides</a> <a href="https://vimeo.com/107396377">video</a></li>
+    <li>Safety Nets for Ruby: Tests, Reviews, and Automation, Paris.rb Dec 2013 <a href="https://rawgit.com/8thcolor/parisrb-131203/master/presentation.html">slides</a> <a href="https://vimeo.com/86134344">video</a></li>
+    <li>Code Quality, meh ?!, Lyon Ruby Brigade Jun 2013 <a href="https://rawgit.com/8thcolor/belighted-140509/master/presentation.html">slides</a></li>
+  </ul>
+</section>
+
+<section id="ppl">
+  <h1>Humane Development</h1>
+  <p>
+    I agree with <a href="http://humanedevelopment.org/">Ernie Miller</a>: I
+    believe that software engineering and development should be humanist. For
+    that reason, I support the community and other people as much as I can.
+  </p>
+
+  <ul class="default">
+    <li><a href="http://rubybelgium.be">Ruby Belgium</a></li>
+    <li>
+      <a href="http://rubybelgium.be/rails-girls/">Rails Girls Brussels</a></li>
+    <li>Ask Me Anything on <a href="https://twitter.com/_toch">Twitter</a> or
+        <a href="https://github.com/toch/ama">GitHub</a></li>
+    <li>Meet me during the next <a href="http://www.meetup.com/ruby_belgium/">
+        Ruby Burger, Code Together</a>, or online on
+        <a href="http://rubyburgers.herokuapp.com/">Ruby Burger chat rooms</a>.
+    <li>Mentoring (coming soon)</li>
+  </ul>
+</section>
+
+<section id="work">
+
+<h1>Ateliers</h1>
+
+<p>I have several ateliers:</p>
+
+<ul>
+  <li>I work at <a href="https://euranova.eu">Eura Nova</a>.</li>
+  <li>I run <a href="https://pullreview.com">PullReview</a>.</li>
+  <li>I participate to several <a href="#projects">projects</a>.</li>
+  <li>I am the president of <a href="#ppl">RubyBelgium</a>.</li>
+</ul>
+</section>
+
+<section id="about">
+  <h1>I'm toch.</h1>
+
+  <p>
+    I build development <a href="#projects">tools</a>, such as
+    <a href="https://pullreview">PullReview</a>, and like to help developers. I
+    also work at <a href="https://euranova.eu">Eura Nova</a>, a private research
+    service company. I am a polyglot developer, C++ and Ruby are my strongest
+    languages. I like to <a href="#talks">talk at conferences</a> and support
+    the <a href="#ppl">community</a>, especially
+    <a href="http://rubybelgium.be">Ruby Belgium</a> I co-founded and I am the
+    current president.
+  </p>
+
+  <h2>Contact me</h2>
+
+  <ul>
+    <li>Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a></li>
+    <li>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
+    <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  </ul>
+
+  <h2>Baking and Development</h2>
+
+  <p>
+    I started to bake in Nov 2015. I love this craft and it inspires me a lot
+    in my daily work:
+  </p>
+
+  <ul class="default">
+    <li>you feed people you love;</li>
+    <li>each time, you ship on day 1;</li>
+    <li>you improve your techniques by doing, again and again;</li>
+    <li>your practice pushes you to learn theory;</li>
+    <li>you aim at perfection by doing it wrong.</li>
+  </ul>
+
+</section>
+
+{% include footer.html %}

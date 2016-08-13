@@ -1,0 +1,83 @@
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: modular-scale(1);
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 0.9em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+p, ul {
+  color: $base-font-color;
+  line-height: $base-line-height;
+  margin: 0 0 $small-spacing;
+  font-size: 1.05em;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-bottom: 1.5em;
+  span {
+    font-family: $heading-font-family;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: 1px solid $light-gray;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+code {
+  background: #F7F7F7;
+  border-radius: $base-border-radius * 1.5;
+  border: 1px solid #E0E0E0;
+  font-family: monaco;
+  font-size: 0.7em;
+  font-style: normal;
+  padding: 0.1em 0.4em;
+  white-space: nowrap;
+}

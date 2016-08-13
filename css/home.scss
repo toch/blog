@@ -1,0 +1,49 @@
+---
+---
+@charset "utf-8";
+@import "bourbon";
+@import "base/base";
+@import "neat/neat";
+
+header {
+  @include outer-container;
+  margin-top: modular-scale(6);
+  margin-bottom: modular-scale(6);
+  h1 {
+    text-align: center;
+    font-size: modular-scale(6);
+  }
+}
+
+nav {
+  @include outer-container;
+  margin-top: modular-scale(6);
+  margin-bottom: modular-scale(6);
+  li {
+    @include span-columns(2);
+    img {
+      width: 100%;
+    }
+  }
+}
+
+section {
+  @include outer-container;
+  margin-top: modular-scale(6);
+  margin-bottom: modular-scale(6);
+
+  // p, ul {
+  //   margin-top: modular-scale(2);
+  //   margin-bottom: modular-scale(2);
+  // }
+
+  ul.default {
+    @extend %default-ul;
+  }
+}
+
+body > footer {
+  @include outer-container;
+  margin-top: $base-spacing * 10;
+}
+

@@ -1,0 +1,29 @@
+---
+---
+@charset "utf-8";
+@import "bourbon";
+@import "base/base";
+@import "neat/neat";
+
+
+article {
+  @include outer-container;
+  margin-top: $base-spacing * 5;
+  text-align: left;
+
+  p.date {
+    color: transparentize($base-font-color, 0.6);
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+  }
+
+  hr {
+    width: 3em;
+  }
+}
+
+body > footer {
+  @include outer-container;
+  margin-top: $base-spacing * 10;
+}
+

@@ -1,0 +1,22 @@
+# Site settings
+title: I bake software
+email: me@ibakesoftware.com
+description: >
+  I bake software.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ibakesoftware.com" # the base hostname & protocol for your site
+twitter_username: _toch
+github_username: toch
+code_url: https://github.com/toch/blog
+
+# Build settings
+markdown: kramdown
+gems:
+  - bourbon
+  - neat
+  - bitters
+  - emoji_for_jekyll
+
+exclude:
+  - README.md
+  - LICENSE.md
