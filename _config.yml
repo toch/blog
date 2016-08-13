@@ -20,3 +20,5 @@ gems:
 exclude:
   - README.md
   - LICENSE.md
+  - Rakefile
+  - images/*.xcf
