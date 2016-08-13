@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I bake software</title>
+    <description>I bake software.
+</description>
+    <link>http://ibakesoftware.com/</link>
+    <atom:link href="http://ibakesoftware.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 13 Aug 2016 15:33:41 +0200</pubDate>
+    <lastBuildDate>Sat, 13 Aug 2016 15:33:41 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>I Bake Software</title>
+        <description>&lt;p&gt;Recently, I was on the &lt;a href=&quot;https://rubyburgers.herokuapp.com/&quot;&gt;Ruby Burger chat rooms&lt;/a&gt;.
+We were discussing a video presenting a company as a great place to work as a software developer. It was full of caricatures such as “ninja”.
+&lt;a href=&quot;http://yannick.io&quot;&gt;Yannick&lt;/a&gt;, a friend, was then saying the following:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are looking for farmer javascript devs
+looking for policeman Java devs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I realize it resonates a lot with me more than “ninja” or “guru” or
+whatever-inadequate-adjective-you-could-find-to-make-it-cool. Since I started to
+bake my own &lt;img class=&quot;emoji&quot; title=&quot;bread&quot; alt=&quot;bread&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/bread.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;, pancakes, brioches, and so on, I embrace the idea of
+software development as a craft.&lt;/p&gt;
+
+&lt;p&gt;I’m proud to present myself as a &lt;strong&gt;baker dev&lt;/strong&gt;. It inspires me to build the
+&lt;a href=&quot;/&quot;&gt;present personal web site&lt;/a&gt;. Enjoy!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Aug 2016 23:32:07 +0200</pubDate>
+        <link>http://ibakesoftware.com/2016/08/12/I-bake-software.html</link>
+        <guid isPermaLink="true">http://ibakesoftware.com/2016/08/12/I-bake-software.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
