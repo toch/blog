@@ -6,27 +6,9 @@
 </description>
     <link>http://ibakesoftware.com/</link>
     <atom:link href="http://ibakesoftware.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Mar 2017 22:22:56 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Mar 2017 22:22:56 -0500</lastBuildDate>
+    <pubDate>Mon, 02 Apr 2018 13:05:01 +0200</pubDate>
+    <lastBuildDate>Mon, 02 Apr 2018 13:05:01 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Build a Web API with Hanami</title>
-        <description>&lt;p&gt;One year ago, I started to work with Hanami&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;talk&lt;/li&gt;
-  &lt;li&gt;What’s Hanami?&lt;/li&gt;
-  &lt;li&gt;Why Hanami?&lt;/li&gt;
-  &lt;li&gt;A Web API&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 03:56:38 -0500</pubDate>
-        <link>http://ibakesoftware.com/2017/01/31/build-a-web-api-with-hanami.html</link>
-        <guid isPermaLink="true">http://ibakesoftware.com/2017/01/31/build-a-web-api-with-hanami.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>I Bake Software</title>
@@ -47,7 +29,7 @@ software development as a craft.&lt;/p&gt;
 &lt;p&gt;I’m proud to present myself as a &lt;strong&gt;baker dev&lt;/strong&gt;. It inspires me to build the
 &lt;a href=&quot;/&quot;&gt;present personal web site&lt;/a&gt;. Enjoy!&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 Aug 2016 17:32:07 -0400</pubDate>
+        <pubDate>Fri, 12 Aug 2016 23:32:07 +0200</pubDate>
         <link>http://ibakesoftware.com/2016/08/12/I-bake-software.html</link>
         <guid isPermaLink="true">http://ibakesoftware.com/2016/08/12/I-bake-software.html</guid>
         
